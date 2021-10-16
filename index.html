@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login e Senha Responsiva</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" id="flip">
+        <div class="cover">
+            <div class="front">
+                <img src="imagens/fontImg.jpg" alt="">
+                <div class="text">
+                    <span class="text-1">Every new friend is a <br> new adventure</span>
+                    <span class="text-2">Let's get connected</span>
+                </div>
+            </div>
+            <div class="back">
+                <img class="backImg" src="imagens/backImg.jpg" alt="">
+                <div class="text">
+                    <span class="text-1">Complete mile of journey <br> with one step</span>
+                    <span class="text-2">Let's get started</span>
+                </div>
+            </div>
+        </div>
+        <form action="#">
+            <div class="form-content">
+                <div class="login-form">
+                    <div class="title">Login</div>
+                    <div class="input-boxes">
+                        <div class="input-box">
+                            <i class="fas fa-envelope"></i>
+                            <input type="text" placeholder="Digite seu email" required>
+                        </div>
+                        <div class="input-box">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" placeholder="Digite sua senha" required>
+                        </div>
+                        <div class="text"><a href="#">Esqueçeu a senha?</a></div>
+                        <div class="button input-box">
+                            <input type="submit" value="Entrar">
+                        </div>
+                        <div class="text sign-up-text">Não tem uma conta? <label for="flip">Cadastre-se aqui</label></div>
+                    </div>
+                </div>
+                <div class="cadastro-form">
+                    <div class="title">Inscreva-se</div>
+                    <div class="input-boxes">
+                        <div class="input-box">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="Digite o seu nome" required>
+                        </div>
+                        <div class="input-box">
+                            <i class="fas fa-envelope"></i>
+                            <input type="text" placeholder="Digite seu email" required>
+                        </div>
+                        <div class="input-box">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" placeholder="Digite sua senha" required>
+                        </div>
+                        <div class="button input-box">
+                            <input type="submit" value="Cadastrar">
+                        </div>
+                        <div class="text sign-up-text">Já tenho uma conta? <label for="flip">Entrar aqui</label></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
